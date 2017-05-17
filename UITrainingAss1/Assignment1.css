@@ -1,0 +1,39 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+background-color:white;
+}
+/*the background color is just to check for responsiveness on different devices*/
+/*Mobile devices*/
+@media only screen and (min-device-width:320px) and (max-device-width:767px) {
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    body {
+    background-color:red;
+    }
+}
+/*tablets*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    body {
+    background-color:gold;
+    }
+}
+/*laptops and desktops*/
+@media (min-device-width:1025px) and (max-device-width:max) {
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    body {
+    background-color:green;
+    }
+}
