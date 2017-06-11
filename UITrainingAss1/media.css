@@ -1,0 +1,291 @@
+/*responsiveness on different devices*/
+/*Mobile devices*/
+@media only screen and (min-device-width:320px) and (max-device-width:767px) {
+img {
+    max-width: 100%;
+    height: auto;
+    }
+body {
+    background-color:#adff2f;
+    }
+.Container{
+    max-width: 100%;
+    height: 800px;
+    padding: 5px;     
+}
+/*paragraph styling and separation between them*/
+.blueBox{    
+    max-width: 100%;
+    text-align: justify;
+}
+.blueBox > p{
+    display: inline-block;
+    vertical-align: top;
+}
+.blueBox:after{
+    content: '';
+    display: inline-block;
+    width:100%; 
+}
+/* Iphone, Tablet, and Desktop image positioning*/
+.blueBoxIphone{
+    margin-top: -500px;
+    padding-left: 65%;
+    height: 600px;
+    }
+.desktop2{
+    position: absolute;
+    padding-top: 400px;
+    margin-left: -522px;
+  }
+  .greybox > img{
+    float: right;
+    margin-top: -300px;
+    border-radius: 15px;
+    max-width: 50%;
+}
+.greyboxIphone > img{
+    position: absolute;
+    margin-top: -250px;
+    padding-left: 450px;
+    height: 500px;
+    z-index: 4;
+}
+/*text positioning*/
+.blackbox-text {
+   float: right;
+    padding-top: 40%;
+    }
+.blackbox-text > p > strong{
+    font-size: 25px;
+}
+.blueBox > p > strong{/*Effecting the boldiness of targeted font*/
+    font-size: 22px;
+}
+.bluebox2-text{
+    position: relative;
+    float: right;       
+    text-align: right;
+}
+.lastbox-text{
+    text-align: center;
+    padding-top: 300px;
+}
+/*logo*/
+.logobox {
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+.Logo{
+    float: left;
+    height:15px;
+    width: 10px;
+    -moz-transform: skewX(22deg);
+    -webkit-transform: skewX(22deg);
+    transform: skewX(22deg);
+    background-color:#ffffff;
+    margin-right: 1px;
+}
+/*thumbs up icon*/
+#thumbsUpIcon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%; 
+    background-color:#ffffff;
+}
+/*diagonal images skewed*/
+.diagonalContainer {
+    width: 163px;
+    height: auto;
+    padding:60px;
+}
+.diagonal > img { 
+    width: 200px;
+    height: auto;
+    padding-bottom: 30px;
+}
+.skew{  
+    padding-top: 10px;
+    width: auto;
+    display: inline-block;
+    height: auto;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+/*magnifier*/
+.magnify {
+   position: absolute;
+   width: 1000px;
+   height:600px ;
+   left: 0px;
+   background-image: url('images/desktop2.jpg');
+   background-size: auto;
+   z-index: 2;
+ }
+.magnify:after {
+    content: "";
+    position: absolute;
+    left: 800px;
+    width: 200px;
+    top: 100px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: inherit;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+}
+/*tablets*/
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+img {
+    max-width: 100%;
+    height: auto;
+    }
+body {
+    background-color:#ffd700;
+    }
+.Container{
+    max-width: 100%;
+    height: 800px;
+    padding: 5px;     
+}
+/*paragraph styling and separation between them*/
+.blueBox{    
+    max-width: 100%;
+    text-align: justify;
+}
+.blueBox > p{
+    display: inline-block;
+    vertical-align: top;
+}
+.blueBox:after{
+    content: '';
+    display: inline-block;
+    width:100%; 
+}
+/* Iphone, Tablet, and Desktop image positioning*/
+.blueBoxIphone{
+    margin-top: -500px;
+    padding-left: 65%;
+    height: 600px;
+    }
+.desktop2{
+    position: absolute;
+    padding-top: 400px;
+    margin-left: -522px;
+  }
+  .greybox > img{
+    float: right;
+    margin-top: -300px;
+    border-radius: 15px;
+    max-width: 50%;
+}
+.greyboxIphone > img{
+    position: absolute;
+    margin-top: -250px;
+    padding-left: 450px;
+    height: 500px;
+    z-index: 4;
+}
+/*text positioning*/
+.blackbox-text {
+   float: right;
+    padding-top: 40%;
+    }
+.blackbox-text > p > strong{
+    font-size: 25px;
+}
+.blueBox > p > strong{/*Effecting the boldiness of targeted font*/
+    font-size: 22px;
+}
+.bluebox2-text{
+    position: relative;
+    float: right;       
+    text-align: right;
+}
+.lastbox-text{
+    text-align: center;
+    padding-top: 300px;
+}
+/*logo*/
+.logobox {
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+.Logo{
+    float: left;
+    height:15px;
+    width: 10px;
+    -moz-transform: skewX(22deg);
+    -webkit-transform: skewX(22deg);
+    transform: skewX(22deg);
+    background-color:#ffffff;
+    margin-right: 1px;
+}
+/*thumbs up icon*/
+#thumbsUpIcon{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%; 
+    background-color:#ffffff;
+}
+/*diagonal images skewed*/
+.diagonalContainer {
+    width: 163px;
+    height: auto;
+    padding:60px;
+}
+.diagonal > img { 
+    width: 200px;
+    height: auto;
+    padding-bottom: 30px;
+}
+.skew{  
+    padding-top: 10px;
+    width: auto;
+    display: inline-block;
+    height: auto;
+    /* Rotate div */
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+/*magnifier*/
+.magnify {
+   position: absolute;
+   width: 1000px;
+   height:600px ;
+   left: 0px;
+   background-image: url('images/desktop2.jpg');
+   background-size: auto;
+   z-index: 2;
+ }
+.magnify:after {
+    content: "";
+    position: absolute;
+    left: 800px;
+    width: 200px;
+    top: 100px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: inherit;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+}
+/*laptops and desktops*/
+@media (min-device-width:1025px) and (max-device-width:max) {
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    body {
+    background-color:#ff0000;
+    }
+}
